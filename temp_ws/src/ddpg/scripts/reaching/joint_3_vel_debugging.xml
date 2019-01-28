@@ -1,0 +1,357 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+ <tabbed_widget name="Main Window" parent="main_window">
+  <plotmatrix rows="7" columns="4" tab_name="plot">
+   <plot row="0" col="0">
+    <range left="191.060000" bottom="-0.113646" top="1.811857" right="196.060000"/>
+    <limitY/>
+    <curve G="0" name="/robot/joint_states/right_j0/vel" R="0" B="255"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="0">
+    <range left="191.060000" bottom="-1.446049" top="0.329068" right="196.060000"/>
+    <limitY/>
+    <curve G="128" name="/robot/joint_states/right_j1/vel" R="0" B="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="0">
+    <range left="191.060000" bottom="-0.071431" top="0.180623" right="196.060000"/>
+    <limitY/>
+    <curve G="0" name="/robot/joint_states/right_j2/vel" R="255" B="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="0">
+    <range left="191.060000" bottom="-2.538599" top="0.107476" right="196.060000"/>
+    <limitY/>
+    <curve G="0" name="/robot/joint_states/right_j3/vel" R="255" B="255"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="4" col="0">
+    <range left="191.060000" bottom="-2.833083" top="0.212619" right="196.060000"/>
+    <limitY/>
+    <curve G="0" name="/robot/joint_states/right_j4/vel" R="0" B="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="5" col="0">
+    <range left="191.060000" bottom="-0.340456" top="2.010297" right="196.060000"/>
+    <limitY/>
+    <curve G="128" name="/robot/joint_states/right_j5/vel" R="0" B="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="6" col="0">
+    <range left="191.060000" bottom="-0.085120" top="2.026168" right="196.060000"/>
+    <limitY/>
+    <curve G="160" name="/robot/joint_states/right_j6/vel" R="160" B="164"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="0" col="1">
+    <range left="189.672000" bottom="-0.139518" top="0.000223" right="194.667000"/>
+    <limitY/>
+    <curve G="128" name="/robot/limb/right/joint_command/velocity.0" R="128" B="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="1">
+    <range left="189.672000" bottom="0.057613" top="0.239477" right="194.667000"/>
+    <limitY/>
+    <curve G="0" name="/robot/limb/right/joint_command/velocity.1" R="128" B="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="1">
+    <range left="189.672000" bottom="-0.194748" top="-0.109444" right="194.667000"/>
+    <limitY/>
+    <curve G="128" name="/robot/limb/right/joint_command/velocity.2" R="0" B="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="1">
+    <range left="189.672000" bottom="0.108615" top="0.216775" right="194.667000"/>
+    <limitY/>
+    <curve G="0" name="/robot/limb/right/joint_command/velocity.3" R="0" B="255"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="4" col="1">
+    <range left="189.672000" bottom="-0.067318" top="0.046921" right="194.667000"/>
+    <limitY/>
+    <curve G="0" name="/robot/limb/right/joint_command/velocity.4" R="255" B="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="5" col="1">
+    <range left="189.672000" bottom="-0.045802" top="0.133620" right="194.667000"/>
+    <limitY/>
+    <curve G="0" name="/robot/limb/right/joint_command/velocity.5" R="255" B="255"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="6" col="1">
+    <range left="189.672000" bottom="-0.446091" top="-0.326584" right="194.667000"/>
+    <limitY/>
+    <curve G="0" name="/robot/limb/right/joint_command/velocity.6" R="0" B="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="0" col="2">
+    <range left="191.071000" bottom="-0.139596" top="0.003405" right="196.062000"/>
+    <limitY/>
+    <curve G="160" name="/robot/limb/right/gravity_compensation_torques/commanded_velocity.0" R="160" B="164"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="2">
+    <range left="191.071000" bottom="-0.005879" top="0.241025" right="196.062000"/>
+    <limitY/>
+    <curve G="128" name="/robot/limb/right/gravity_compensation_torques/commanded_velocity.1" R="128" B="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="2">
+    <range left="191.071000" bottom="-0.197535" top="0.004818" right="196.062000"/>
+    <limitY/>
+    <curve G="0" name="/robot/limb/right/gravity_compensation_torques/commanded_velocity.2" R="128" B="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="2">
+    <range left="191.071000" bottom="-0.005355" top="0.219555" right="196.062000"/>
+    <limitY/>
+    <curve G="0" name="/robot/limb/right/gravity_compensation_torques/commanded_velocity.3" R="0" B="255"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="4" col="2">
+    <range left="191.071000" bottom="-0.064403" top="0.046850" right="196.062000"/>
+    <limitY/>
+    <curve G="128" name="/robot/limb/right/gravity_compensation_torques/commanded_velocity.4" R="0" B="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="5" col="2">
+    <range left="191.071000" bottom="-0.003234" top="0.132582" right="196.062000"/>
+    <limitY/>
+    <curve G="0" name="/robot/limb/right/gravity_compensation_torques/commanded_velocity.5" R="255" B="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="6" col="2">
+    <range left="191.071000" bottom="-0.454327" top="0.011081" right="196.062000"/>
+    <limitY/>
+    <curve G="0" name="/robot/limb/right/gravity_compensation_torques/commanded_velocity.6" R="255" B="255"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="0" col="3">
+    <range left="4.254000" bottom="0.000000" top="1.000000" right="194.303000"/>
+    <limitY/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="3">
+    <range left="4.254000" bottom="0.000000" top="1.000000" right="194.303000"/>
+    <limitY/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="3">
+    <range left="194.750000" bottom="2.700000" top="15.300000" right="195.920000"/>
+    <limitY/>
+    <curve G="0" name="/robot/limb/right/joint_command_timeout/data" R="255" B="255"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="3">
+    <range left="191.071000" bottom="-41.355600" top="15.579592" right="196.062000"/>
+    <limitY/>
+    <curve G="0" name="/robot/limb/right/gravity_compensation_torques/actual_effort.3" R="0" B="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="4" col="3">
+    <range left="4.254000" bottom="-337.323142" top="150.929393" right="196.063000"/>
+    <limitY/>
+    <curve G="128" name="/robot/right_joint_position_controller/joints/right_j3_controller/state/command" R="0" B="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="5" col="3">
+    <range left="4.254000" bottom="0.000000" top="1.000000" right="194.303000"/>
+    <limitY/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="6" col="3">
+    <range left="4.254000" bottom="0.000000" top="1.000000" right="194.303000"/>
+    <limitY/>
+    <transform value="noTransform"/>
+   </plot>
+  </plotmatrix>
+  <currentPlotMatrix index="0"/>
+ </tabbed_widget>
+ <tabbed_widget name="Main Window" parent="main_window">
+  <plotmatrix rows="7" columns="4" tab_name="plot">
+   <plot row="0" col="0">
+    <range left="191.060000" bottom="-0.113646" top="1.811857" right="196.060000"/>
+    <limitY/>
+    <curve G="0" name="/robot/joint_states/right_j0/vel" R="0" B="255"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="0">
+    <range left="191.060000" bottom="-1.446049" top="0.329068" right="196.060000"/>
+    <limitY/>
+    <curve G="128" name="/robot/joint_states/right_j1/vel" R="0" B="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="0">
+    <range left="191.060000" bottom="-0.071431" top="0.180623" right="196.060000"/>
+    <limitY/>
+    <curve G="0" name="/robot/joint_states/right_j2/vel" R="255" B="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="0">
+    <range left="191.060000" bottom="-2.538599" top="0.107476" right="196.060000"/>
+    <limitY/>
+    <curve G="0" name="/robot/joint_states/right_j3/vel" R="255" B="255"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="4" col="0">
+    <range left="191.060000" bottom="-2.833083" top="0.212619" right="196.060000"/>
+    <limitY/>
+    <curve G="0" name="/robot/joint_states/right_j4/vel" R="0" B="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="5" col="0">
+    <range left="191.060000" bottom="-0.340456" top="2.010297" right="196.060000"/>
+    <limitY/>
+    <curve G="128" name="/robot/joint_states/right_j5/vel" R="0" B="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="6" col="0">
+    <range left="191.060000" bottom="-0.085120" top="2.026168" right="196.060000"/>
+    <limitY/>
+    <curve G="160" name="/robot/joint_states/right_j6/vel" R="160" B="164"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="0" col="1">
+    <range left="189.672000" bottom="-0.139518" top="0.000223" right="194.667000"/>
+    <limitY/>
+    <curve G="128" name="/robot/limb/right/joint_command/velocity.0" R="128" B="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="1">
+    <range left="189.672000" bottom="0.057613" top="0.239477" right="194.667000"/>
+    <limitY/>
+    <curve G="0" name="/robot/limb/right/joint_command/velocity.1" R="128" B="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="1">
+    <range left="189.672000" bottom="-0.194748" top="-0.109444" right="194.667000"/>
+    <limitY/>
+    <curve G="128" name="/robot/limb/right/joint_command/velocity.2" R="0" B="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="1">
+    <range left="189.672000" bottom="0.108615" top="0.216775" right="194.667000"/>
+    <limitY/>
+    <curve G="0" name="/robot/limb/right/joint_command/velocity.3" R="0" B="255"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="4" col="1">
+    <range left="189.672000" bottom="-0.067318" top="0.046921" right="194.667000"/>
+    <limitY/>
+    <curve G="0" name="/robot/limb/right/joint_command/velocity.4" R="255" B="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="5" col="1">
+    <range left="189.672000" bottom="-0.045802" top="0.133620" right="194.667000"/>
+    <limitY/>
+    <curve G="0" name="/robot/limb/right/joint_command/velocity.5" R="255" B="255"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="6" col="1">
+    <range left="189.672000" bottom="-0.446091" top="-0.326584" right="194.667000"/>
+    <limitY/>
+    <curve G="0" name="/robot/limb/right/joint_command/velocity.6" R="0" B="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="0" col="2">
+    <range left="191.071000" bottom="-0.139596" top="0.003405" right="196.062000"/>
+    <limitY/>
+    <curve G="160" name="/robot/limb/right/gravity_compensation_torques/commanded_velocity.0" R="160" B="164"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="2">
+    <range left="191.071000" bottom="-0.005879" top="0.241025" right="196.062000"/>
+    <limitY/>
+    <curve G="128" name="/robot/limb/right/gravity_compensation_torques/commanded_velocity.1" R="128" B="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="2">
+    <range left="191.071000" bottom="-0.197535" top="0.004818" right="196.062000"/>
+    <limitY/>
+    <curve G="0" name="/robot/limb/right/gravity_compensation_torques/commanded_velocity.2" R="128" B="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="2">
+    <range left="191.071000" bottom="-0.005355" top="0.219555" right="196.062000"/>
+    <limitY/>
+    <curve G="0" name="/robot/limb/right/gravity_compensation_torques/commanded_velocity.3" R="0" B="255"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="4" col="2">
+    <range left="191.071000" bottom="-0.064403" top="0.046850" right="196.062000"/>
+    <limitY/>
+    <curve G="128" name="/robot/limb/right/gravity_compensation_torques/commanded_velocity.4" R="0" B="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="5" col="2">
+    <range left="191.071000" bottom="-0.003234" top="0.132582" right="196.062000"/>
+    <limitY/>
+    <curve G="0" name="/robot/limb/right/gravity_compensation_torques/commanded_velocity.5" R="255" B="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="6" col="2">
+    <range left="191.071000" bottom="-0.454327" top="0.011081" right="196.062000"/>
+    <limitY/>
+    <curve G="0" name="/robot/limb/right/gravity_compensation_torques/commanded_velocity.6" R="255" B="255"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="0" col="3">
+    <range left="4.254000" bottom="0.000000" top="1.000000" right="194.303000"/>
+    <limitY/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="3">
+    <range left="4.254000" bottom="0.000000" top="1.000000" right="194.303000"/>
+    <limitY/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="3">
+    <range left="194.750000" bottom="2.700000" top="15.300000" right="195.920000"/>
+    <limitY/>
+    <curve G="0" name="/robot/limb/right/joint_command_timeout/data" R="255" B="255"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="3">
+    <range left="191.071000" bottom="-41.355600" top="15.579592" right="196.062000"/>
+    <limitY/>
+    <curve G="0" name="/robot/limb/right/gravity_compensation_torques/actual_effort.3" R="0" B="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="4" col="3">
+    <range left="4.254000" bottom="-337.323142" top="150.929393" right="196.063000"/>
+    <limitY/>
+    <curve G="128" name="/robot/right_joint_position_controller/joints/right_j3_controller/state/command" R="0" B="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="5" col="3">
+    <range left="4.254000" bottom="0.000000" top="1.000000" right="194.303000"/>
+    <limitY/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="6" col="3">
+    <range left="4.254000" bottom="0.000000" top="1.000000" right="194.303000"/>
+    <limitY/>
+    <transform value="noTransform"/>
+   </plot>
+  </plotmatrix>
+  <currentPlotMatrix index="0"/>
+ </tabbed_widget>
+ <use_relative_time_offset enabled="1"/>
+ <Plugins>
+  <DataLoad_CSV>
+   <default time_axis=""/>
+  </DataLoad_CSV>
+  <DataLoad_ROS_bags>
+   <selected_topics list=""/>
+  </DataLoad_ROS_bags>
+  <ROS_Topic_Streamer>
+   <selected_topics list="/robot/joint_states;/robot/limb/right/gravity_compensation_torques;/robot/limb/right/joint_command;/robot/limb/right/joint_command_timeout;/robot/right_joint_position_controller/joints/right_j3_controller/state"/>
+  </ROS_Topic_Streamer>
+  <RosoutPublisherROS/>
+  <TopicPublisherROS/>
+ </Plugins>
+ <previouslyLoadedStreamer name="ROS_Topic_Streamer"/>
+</root>
+

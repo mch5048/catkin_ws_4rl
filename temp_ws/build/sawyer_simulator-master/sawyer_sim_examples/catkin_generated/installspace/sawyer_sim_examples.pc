@@ -1,0 +1,8 @@
+prefix=/home/irobot/catkin_ws/install
+
+Name: sawyer_sim_examples
+Description: Description of sawyer_sim_examples
+Version: 5.3.0
+Cflags: -I/home/irobot/catkin_ws/install/include
+Libs: -L/home/irobot/catkin_ws/install/lib 
+Requires: rospy intera_core_msgs gazebo_msgs message_generation message_runtime cv_bridge

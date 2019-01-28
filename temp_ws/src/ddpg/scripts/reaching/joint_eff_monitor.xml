@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+ <tabbed_widget parent="main_window" name="Main Window">
+  <plotmatrix tab_name="plot" rows="7" columns="2">
+   <plot row="0" col="0">
+    <range left="9538.629000" top="82.293289" right="9543.629000" bottom="-14.024831"/>
+    <limitY/>
+    <curve B="255" G="0" R="0" name="/robot/joint_states/right_j0/eff"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="0">
+    <range left="9538.629000" top="28.079606" right="9543.629000" bottom="-82.636088"/>
+    <limitY/>
+    <curve B="0" G="128" R="0" name="/robot/joint_states/right_j1/eff"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="0">
+    <range left="9538.629000" top="41.326831" right="9543.629000" bottom="-14.400082"/>
+    <limitY/>
+    <curve B="255" G="0" R="255" name="/robot/joint_states/right_j2/eff"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="0">
+    <range left="9538.629000" top="41.661098" right="9543.629000" bottom="-28.104999"/>
+    <limitY/>
+    <curve B="128" G="0" R="0" name="/robot/joint_states/right_j3/eff"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="4" col="0">
+    <range left="9538.629000" top="9.316321" right="9543.629000" bottom="-3.969147"/>
+    <limitY/>
+    <curve B="128" G="128" R="0" name="/robot/joint_states/right_j4/eff"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="5" col="0">
+    <range left="9538.629000" top="9.450000" right="9543.629000" bottom="-9.450000"/>
+    <limitY/>
+    <curve B="164" G="160" R="160" name="/robot/joint_states/right_j5/eff"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="6" col="0">
+    <range left="9538.629000" top="7.715255" right="9543.629000" bottom="-9.407689"/>
+    <limitY/>
+    <curve B="0" G="128" R="128" name="/robot/joint_states/right_j6/eff"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="0" col="1">
+    <range left="9538.654000" top="-0.049644" right="9543.616000" bottom="-0.311778"/>
+    <limitY/>
+    <curve B="235" G="30" R="21" name="/robot/limb/right/joint_command/effort.0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="1">
+    <range left="9538.654000" top="0.275485" right="9543.616000" bottom="0.021670"/>
+    <limitY/>
+    <curve B="17" G="107" R="38" name="/robot/limb/right/joint_command/effort.1"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="1">
+    <range left="9538.654000" top="-0.043488" right="9543.616000" bottom="-0.244177"/>
+    <limitY/>
+    <curve B="251" G="0" R="255" name="/robot/limb/right/joint_command/effort.2"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="1">
+    <range left="9538.654000" top="-0.075618" right="9543.616000" bottom="-0.326560"/>
+    <limitY/>
+    <curve B="119" G="25" R="18" name="/robot/limb/right/joint_command/effort.3"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="4" col="1">
+    <range left="9538.654000" top="-0.006948" right="9543.616000" bottom="-0.264272"/>
+    <limitY/>
+    <curve B="130" G="155" R="0" name="/robot/limb/right/joint_command/effort.4"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="5" col="1">
+    <range left="9538.654000" top="0.173775" right="9543.616000" bottom="-0.052334"/>
+    <limitY/>
+    <curve B="156" G="156" R="156" name="/robot/limb/right/joint_command/effort.5"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="6" col="1">
+    <range left="9538.654000" top="0.397929" right="9543.616000" bottom="0.117266"/>
+    <limitY/>
+    <curve B="44" G="148" R="166" name="/robot/limb/right/joint_command/effort.6"/>
+    <transform value="noTransform"/>
+   </plot>
+  </plotmatrix>
+  <currentPlotMatrix index="0"/>
+ </tabbed_widget>
+ <tabbed_widget parent="main_window" name="Main Window">
+  <plotmatrix tab_name="plot" rows="7" columns="2">
+   <plot row="0" col="0">
+    <range left="9538.629000" top="82.293289" right="9543.629000" bottom="-14.024831"/>
+    <limitY/>
+    <curve B="255" G="0" R="0" name="/robot/joint_states/right_j0/eff"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="0">
+    <range left="9538.629000" top="28.079606" right="9543.629000" bottom="-82.636088"/>
+    <limitY/>
+    <curve B="0" G="128" R="0" name="/robot/joint_states/right_j1/eff"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="0">
+    <range left="9538.629000" top="41.326831" right="9543.629000" bottom="-14.400082"/>
+    <limitY/>
+    <curve B="255" G="0" R="255" name="/robot/joint_states/right_j2/eff"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="0">
+    <range left="9538.629000" top="41.661098" right="9543.629000" bottom="-28.104999"/>
+    <limitY/>
+    <curve B="128" G="0" R="0" name="/robot/joint_states/right_j3/eff"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="4" col="0">
+    <range left="9538.629000" top="9.316321" right="9543.629000" bottom="-3.969147"/>
+    <limitY/>
+    <curve B="128" G="128" R="0" name="/robot/joint_states/right_j4/eff"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="5" col="0">
+    <range left="9538.629000" top="9.450000" right="9543.629000" bottom="-9.450000"/>
+    <limitY/>
+    <curve B="164" G="160" R="160" name="/robot/joint_states/right_j5/eff"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="6" col="0">
+    <range left="9538.629000" top="7.715255" right="9543.629000" bottom="-9.407689"/>
+    <limitY/>
+    <curve B="0" G="128" R="128" name="/robot/joint_states/right_j6/eff"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="0" col="1">
+    <range left="9538.654000" top="-0.049644" right="9543.616000" bottom="-0.311778"/>
+    <limitY/>
+    <curve B="235" G="30" R="21" name="/robot/limb/right/joint_command/effort.0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="1">
+    <range left="9538.654000" top="0.275485" right="9543.616000" bottom="0.021670"/>
+    <limitY/>
+    <curve B="17" G="107" R="38" name="/robot/limb/right/joint_command/effort.1"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="1">
+    <range left="9538.654000" top="-0.043488" right="9543.616000" bottom="-0.244177"/>
+    <limitY/>
+    <curve B="251" G="0" R="255" name="/robot/limb/right/joint_command/effort.2"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="1">
+    <range left="9538.654000" top="-0.075618" right="9543.616000" bottom="-0.326560"/>
+    <limitY/>
+    <curve B="119" G="25" R="18" name="/robot/limb/right/joint_command/effort.3"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="4" col="1">
+    <range left="9538.654000" top="-0.006948" right="9543.616000" bottom="-0.264272"/>
+    <limitY/>
+    <curve B="130" G="155" R="0" name="/robot/limb/right/joint_command/effort.4"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="5" col="1">
+    <range left="9538.654000" top="0.173775" right="9543.616000" bottom="-0.052334"/>
+    <limitY/>
+    <curve B="156" G="156" R="156" name="/robot/limb/right/joint_command/effort.5"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="6" col="1">
+    <range left="9538.654000" top="0.397929" right="9543.616000" bottom="0.117266"/>
+    <limitY/>
+    <curve B="44" G="148" R="166" name="/robot/limb/right/joint_command/effort.6"/>
+    <transform value="noTransform"/>
+   </plot>
+  </plotmatrix>
+  <currentPlotMatrix index="0"/>
+ </tabbed_widget>
+ <use_relative_time_offset enabled="1"/>
+ <Plugins>
+  <DataLoad_CSV>
+   <default time_axis=""/>
+  </DataLoad_CSV>
+  <DataLoad_ROS_bags>
+   <selected_topics list=""/>
+  </DataLoad_ROS_bags>
+  <ROS_Topic_Streamer>
+   <selected_topics list="/robot/joint_states;/robot/limb/right/joint_command"/>
+  </ROS_Topic_Streamer>
+  <RosoutPublisherROS/>
+  <TopicPublisherROS/>
+ </Plugins>
+ <previouslyLoadedStreamer name="ROS_Topic_Streamer"/>
+</root>
+

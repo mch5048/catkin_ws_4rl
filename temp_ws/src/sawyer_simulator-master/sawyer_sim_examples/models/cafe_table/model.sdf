@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <model name="cafe_table">
+    <static>true</static>
+    <link name="link">
+      <collision name="surface">
+        <pose>0 0 0.755 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.913 0.913 0.04</size>
+          </box>
+        </geometry>
+      </collision>
+
+      <collision name="column">
+        <pose>0 0 0.37 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.042 0.042 0.74</size>
+          </box>
+        </geometry>
+      </collision>
+
+      <collision name="base">
+        <pose>0 0 0.02 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.56 0.56 0.04</size>
+          </box>
+        </geometry>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://cafe_table/meshes/cafe_table.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <static>true</static>
+    <link name="table_link"> 
+        <visual name="upper">
+         <pose>0 0 0.9 0 0 0</pose>
+          <geometry>
+            <box>
+            <size>1.1 1.0 0.01</size>
+          </box>
+          </geometry>
+          <material name="white"/>
+        </visual>
+         <collision name="upper">
+          <pose>0.1  0 0.9 0 0 0</pose>
+          <geometry>
+            <box>
+             <size>1.1 1.0 0.015<size/>
+           </box>
+          </geometry>
+        </collision>
+      </link>
+<!--   <joint name="table_link_fixed" type="fixed">
+    <origin rpy="0 0 0" xyz="0.8 0.0 0.0"/>
+    <parent link="base"/>
+    <child link="table_link"/>
+  </joint> -->
+  </model>
+</sdf>

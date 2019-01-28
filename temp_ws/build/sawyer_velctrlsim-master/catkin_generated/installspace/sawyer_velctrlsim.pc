@@ -1,0 +1,8 @@
+prefix=/home/irobot/catkin_ws/install
+
+Name: sawyer_velctrlsim
+Description: Description of sawyer_velctrlsim
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/irobot/catkin_ws/install/lib 
+Requires: 

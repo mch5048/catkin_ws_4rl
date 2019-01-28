@@ -1,0 +1,8 @@
+prefix=/home/irobot/catkin_ws/devel
+
+Name: visual_rand_gazebo
+Description: Description of visual_rand_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/irobot/catkin_ws/devel/lib 
+Requires: 

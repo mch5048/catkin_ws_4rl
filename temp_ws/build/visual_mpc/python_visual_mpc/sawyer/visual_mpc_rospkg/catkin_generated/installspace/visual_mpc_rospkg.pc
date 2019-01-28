@@ -1,0 +1,8 @@
+prefix=/home/irobot/catkin_ws/install
+
+Name: visual_mpc_rospkg
+Description: Description of visual_mpc_rospkg
+Version: 0.0.0
+Cflags: -I/home/irobot/catkin_ws/install/include
+Libs: -L/home/irobot/catkin_ws/install/lib 
+Requires: message_runtime roscpp rospy std_msgs sensor_msgs

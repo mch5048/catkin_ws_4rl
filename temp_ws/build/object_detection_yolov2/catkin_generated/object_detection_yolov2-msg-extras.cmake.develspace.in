@@ -1,0 +1,2 @@
+set(object_detection_yolov2_MESSAGE_FILES "/home/irobot/catkin_ws/src/object_detection_yolov2/msg/Detection.msg;/home/irobot/catkin_ws/src/object_detection_yolov2/msg/DetectionArray.msg;/home/irobot/catkin_ws/src/object_detection_yolov2/msg/DetectionFull.msg;/home/irobot/catkin_ws/src/object_detection_yolov2/msg/BoundingBox.msg;/home/irobot/catkin_ws/src/object_detection_yolov2/msg/BoundingBoxes.msg")
+set(object_detection_yolov2_SERVICE_FILES "")

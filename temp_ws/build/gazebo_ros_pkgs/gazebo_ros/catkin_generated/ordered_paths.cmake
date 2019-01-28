@@ -1,0 +1,1 @@
+set(ORDERED_PATHS "/opt/ros/kinetic/lib;/usr/local/lib;/usr/local/lib/gazebo-7/plugins")

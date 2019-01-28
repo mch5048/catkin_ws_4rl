@@ -1,0 +1,2 @@
+set(berkeley_sawyer_MESSAGE_FILES "")
+set(berkeley_sawyer_SERVICE_FILES "/home/irobot/catkin_ws/src/berkeley_sawyer-master/srv/get_kinectdata.srv;/home/irobot/catkin_ws/src/berkeley_sawyer-master/srv/save_kinectdata.srv;/home/irobot/catkin_ws/src/berkeley_sawyer-master/srv/init_traj.srv;/home/irobot/catkin_ws/src/berkeley_sawyer-master/srv/delete_traj.srv;/home/irobot/catkin_ws/src/berkeley_sawyer-master/srv/get_action.srv;/home/irobot/catkin_ws/src/berkeley_sawyer-master/srv/init_traj_visualmpc.srv")

@@ -1,0 +1,8 @@
+prefix=/home/irobot/catkin_ws/devel
+
+Name: object_detection_yolov2
+Description: Description of object_detection_yolov2
+Version: 0.0.0
+Cflags: -I/home/irobot/catkin_ws/devel/include
+Libs: -L/home/irobot/catkin_ws/devel/lib 
+Requires: cv_bridge roscpp rospy std_msgs message_runtime

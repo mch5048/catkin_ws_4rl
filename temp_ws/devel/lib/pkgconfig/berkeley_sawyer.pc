@@ -1,0 +1,8 @@
+prefix=/home/irobot/catkin_ws/devel
+
+Name: berkeley_sawyer
+Description: Description of berkeley_sawyer
+Version: 0.0.0
+Cflags: -I/home/irobot/catkin_ws/devel/include
+Libs: -L/home/irobot/catkin_ws/devel/lib 
+Requires: message_runtime rospy std_msgs sensor_msgs

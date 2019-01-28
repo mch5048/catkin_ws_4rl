@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+ <tabbed_widget parent="main_window" name="Main Window">
+  <plotmatrix columns="2" rows="7" tab_name="plot">
+   <plot row="0" col="0">
+    <range bottom="-0.332856" left="41.450000" top="0.341900" right="46.450000"/>
+    <limitY/>
+    <curve B="255" G="0" name="/robot/joint_states/right_j0/vel" R="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="0">
+    <range bottom="-0.605566" left="41.450000" top="0.484747" right="46.450000"/>
+    <limitY/>
+    <curve B="0" G="128" name="/robot/joint_states/right_j1/vel" R="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="0">
+    <range bottom="-0.474333" left="41.450000" top="1.609607" right="46.450000"/>
+    <limitY/>
+    <curve B="0" G="0" name="/robot/joint_states/right_j2/vel" R="255"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="0">
+    <range bottom="-1.344025" left="41.450000" top="2.389389" right="46.450000"/>
+    <limitY/>
+    <curve B="255" G="0" name="/robot/joint_states/right_j3/vel" R="255"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="4" col="0">
+    <range bottom="-1.299674" left="41.450000" top="1.343609" right="46.450000"/>
+    <limitY/>
+    <curve B="128" G="0" name="/robot/joint_states/right_j4/vel" R="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="5" col="0">
+    <range bottom="-0.892214" left="41.450000" top="1.826652" right="46.450000"/>
+    <limitY/>
+    <curve B="128" G="128" name="/robot/joint_states/right_j5/vel" R="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="6" col="0">
+    <range bottom="-0.334216" left="41.450000" top="0.629453" right="46.450000"/>
+    <limitY/>
+    <curve B="164" G="160" name="/robot/joint_states/right_j6/vel" R="160"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="0" col="1">
+    <range bottom="-0.802610" left="41.524000" top="0.441179" right="46.427000"/>
+    <limitY/>
+    <curve B="0" G="128" name="/robot/limb/right/joint_command/velocity.0" R="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="1">
+    <range bottom="-0.511042" left="41.524000" top="0.527208" right="46.427000"/>
+    <limitY/>
+    <curve B="0" G="0" name="/robot/limb/right/joint_command/velocity.1" R="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="1">
+    <range bottom="-0.611635" left="41.524000" top="0.466196" right="46.427000"/>
+    <limitY/>
+    <curve B="0" G="128" name="/robot/limb/right/joint_command/velocity.2" R="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="1">
+    <range bottom="-0.389997" left="41.524000" top="0.639882" right="46.427000"/>
+    <limitY/>
+    <curve B="255" G="0" name="/robot/limb/right/joint_command/velocity.3" R="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="4" col="1">
+    <range bottom="-0.639066" left="41.524000" top="0.500860" right="46.427000"/>
+    <limitY/>
+    <curve B="0" G="0" name="/robot/limb/right/joint_command/velocity.4" R="255"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="5" col="1">
+    <range bottom="-0.527299" left="41.524000" top="0.715933" right="46.427000"/>
+    <limitY/>
+    <curve B="255" G="0" name="/robot/limb/right/joint_command/velocity.5" R="255"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="6" col="1">
+    <range bottom="-0.451145" left="41.524000" top="0.794566" right="46.427000"/>
+    <limitY/>
+    <curve B="128" G="0" name="/robot/limb/right/joint_command/velocity.6" R="0"/>
+    <transform value="noTransform"/>
+   </plot>
+  </plotmatrix>
+  <currentPlotMatrix index="0"/>
+ </tabbed_widget>
+ <tabbed_widget parent="main_window" name="Main Window">
+  <plotmatrix columns="2" rows="7" tab_name="plot">
+   <plot row="0" col="0">
+    <range bottom="-0.332856" left="41.450000" top="0.341900" right="46.450000"/>
+    <limitY/>
+    <curve B="255" G="0" name="/robot/joint_states/right_j0/vel" R="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="0">
+    <range bottom="-0.605566" left="41.450000" top="0.484747" right="46.450000"/>
+    <limitY/>
+    <curve B="0" G="128" name="/robot/joint_states/right_j1/vel" R="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="0">
+    <range bottom="-0.474333" left="41.450000" top="1.609607" right="46.450000"/>
+    <limitY/>
+    <curve B="0" G="0" name="/robot/joint_states/right_j2/vel" R="255"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="0">
+    <range bottom="-1.344025" left="41.450000" top="2.389389" right="46.450000"/>
+    <limitY/>
+    <curve B="255" G="0" name="/robot/joint_states/right_j3/vel" R="255"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="4" col="0">
+    <range bottom="-1.299674" left="41.450000" top="1.343609" right="46.450000"/>
+    <limitY/>
+    <curve B="128" G="0" name="/robot/joint_states/right_j4/vel" R="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="5" col="0">
+    <range bottom="-0.892214" left="41.450000" top="1.826652" right="46.450000"/>
+    <limitY/>
+    <curve B="128" G="128" name="/robot/joint_states/right_j5/vel" R="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="6" col="0">
+    <range bottom="-0.334216" left="41.450000" top="0.629453" right="46.450000"/>
+    <limitY/>
+    <curve B="164" G="160" name="/robot/joint_states/right_j6/vel" R="160"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="0" col="1">
+    <range bottom="-0.802610" left="41.524000" top="0.441179" right="46.427000"/>
+    <limitY/>
+    <curve B="0" G="128" name="/robot/limb/right/joint_command/velocity.0" R="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="1">
+    <range bottom="-0.511042" left="41.524000" top="0.527208" right="46.427000"/>
+    <limitY/>
+    <curve B="0" G="0" name="/robot/limb/right/joint_command/velocity.1" R="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="1">
+    <range bottom="-0.611635" left="41.524000" top="0.466196" right="46.427000"/>
+    <limitY/>
+    <curve B="0" G="128" name="/robot/limb/right/joint_command/velocity.2" R="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="1">
+    <range bottom="-0.389997" left="41.524000" top="0.639882" right="46.427000"/>
+    <limitY/>
+    <curve B="255" G="0" name="/robot/limb/right/joint_command/velocity.3" R="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="4" col="1">
+    <range bottom="-0.639066" left="41.524000" top="0.500860" right="46.427000"/>
+    <limitY/>
+    <curve B="0" G="0" name="/robot/limb/right/joint_command/velocity.4" R="255"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="5" col="1">
+    <range bottom="-0.527299" left="41.524000" top="0.715933" right="46.427000"/>
+    <limitY/>
+    <curve B="255" G="0" name="/robot/limb/right/joint_command/velocity.5" R="255"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="6" col="1">
+    <range bottom="-0.451145" left="41.524000" top="0.794566" right="46.427000"/>
+    <limitY/>
+    <curve B="128" G="0" name="/robot/limb/right/joint_command/velocity.6" R="0"/>
+    <transform value="noTransform"/>
+   </plot>
+  </plotmatrix>
+  <currentPlotMatrix index="0"/>
+ </tabbed_widget>
+ <use_relative_time_offset enabled="1"/>
+ <Plugins>
+  <DataLoad_CSV>
+   <default time_axis=""/>
+  </DataLoad_CSV>
+  <DataLoad_ROS_bags>
+   <selected_topics list=""/>
+  </DataLoad_ROS_bags>
+  <ROS_Topic_Streamer>
+   <selected_topics list="/robot/joint_states;/robot/limb/right/joint_command"/>
+  </ROS_Topic_Streamer>
+  <RosoutPublisherROS/>
+  <TopicPublisherROS/>
+ </Plugins>
+ <previouslyLoadedStreamer name="ROS_Topic_Streamer"/>
+</root>
+
